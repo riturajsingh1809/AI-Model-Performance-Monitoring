@@ -1,0 +1,501 @@
+Event_ID,Event_Date,Model_Name,Region,Predicted_Class,Actual_Class,Prediction_Score,Latency_ms,Inference_Cost_USD,Drift_Score,Fairness_Gap,Business_Value_USD,Outcome_Status,Prediction_Correct,Drift_Alert,Fairness_Alert,Latency_Alert,Model_Health
+EVT10174,2026-02-20,Churn_Model,North,Positive,Negative,0.77,205.8,0.029,0.23,0.015,192.96,Failure,0,Alert,Normal,Normal,Needs Attention
+EVT10275,2026-04-03,Fraud_Model,South,Positive,Negative,0.755,192.7,0.026,0.224,0.063,1380.44,Success,0,Alert,Normal,Normal,Needs Attention
+EVT10490,2026-02-02,Demand_Model,West,Negative,Negative,0.922,239.2,0.147,0.066,0.145,1246.56,Success,1,Normal,Alert,Normal,Needs Attention
+EVT10073,2026-06-11,Demand_Model,West,Negative,Positive,0.747,197.4,0.131,0.097,0.167,1120.83,Success,0,Normal,Alert,Normal,Needs Attention
+EVT10306,2026-01-27,Fraud_Model,West,Negative,Positive,0.97,180.4,0.114,0.015,0.164,82.22,Success,0,Normal,Alert,Normal,Needs Attention
+EVT10077,2026-01-15,Demand_Model,North,Positive,Negative,0.894,151.5,0.066,0.292,0.15,422.28,Success,0,Alert,Alert,Normal,Needs Attention
+EVT10476,2026-03-10,Churn_Model,East,Negative,Negative,0.517,207.5,0.169,0.317,0.14,1449.55,Success,1,Alert,Alert,Normal,Needs Attention
+EVT10141,2026-06-20,Fraud_Model,South,Negative,Negative,0.574,124.3,0.171,0.187,0.021,290.78,Failure,1,Normal,Normal,Normal,Healthy
+EVT10470,2026-02-03,Fraud_Model,South,Positive,Negative,0.86,274.2,0.141,0.05,0.132,1335.12,Failure,0,Normal,Alert,Normal,Needs Attention
+EVT10499,2026-06-17,Fraud_Model,South,Negative,Negative,0.775,212.9,0.129,0.277,0.073,1359.71,Success,1,Alert,Normal,Normal,Needs Attention
+EVT10219,2026-04-03,Fraud_Model,West,Negative,Negative,0.579,158.9,0.01,0.141,0.115,559.74,Success,1,Normal,Alert,Normal,Needs Attention
+EVT10010,2026-03-16,Churn_Model,North,Positive,Positive,0.807,147.0,0.082,0.131,0.104,1491.9,Failure,1,Normal,Alert,Normal,Needs Attention
+EVT10480,2026-03-21,Churn_Model,West,Negative,Negative,0.567,239.7,0.133,0.26,0.119,582.09,Success,1,Alert,Alert,Normal,Needs Attention
+EVT10079,2026-03-23,Churn_Model,East,Negative,Positive,0.934,297.8,0.055,0.285,0.018,667.61,Success,0,Alert,Normal,Normal,Needs Attention
+EVT10323,2026-01-06,Fraud_Model,East,Negative,Negative,0.799,266.2,0.056,0.207,0.183,960.23,Failure,1,Alert,Alert,Normal,Needs Attention
+EVT10313,2026-02-17,Churn_Model,North,Negative,Negative,0.552,76.3,0.18,0.012,0.2,761.09,Success,1,Normal,Alert,Normal,Needs Attention
+EVT10125,2026-05-22,Demand_Model,East,Positive,Negative,0.588,68.5,0.12,0.204,0.13,1258.15,Success,0,Alert,Alert,Normal,Needs Attention
+EVT10385,2026-06-02,Churn_Model,East,Positive,Positive,0.588,124.7,0.116,0.242,0.139,510.09,Failure,1,Alert,Alert,Normal,Needs Attention
+EVT10196,2026-02-23,Demand_Model,South,Positive,Negative,0.98,157.7,0.141,0.137,0.023,571.7,Success,0,Normal,Normal,Normal,Healthy
+EVT10448,2026-01-22,Churn_Model,West,Negative,Positive,0.537,253.2,0.083,0.145,0.13,352.18,Failure,0,Normal,Alert,Normal,Needs Attention
+EVT10272,2026-04-22,Fraud_Model,East,Positive,Negative,0.775,242.7,0.06,0.151,0.01,342.67,Success,0,Normal,Normal,Normal,Healthy
+EVT10279,2026-03-23,Fraud_Model,East,Positive,Positive,0.857,302.2,0.142,0.078,0.009,811.1,Success,1,Normal,Normal,Alert,Needs Attention
+EVT10031,2026-06-19,Demand_Model,West,Negative,Positive,0.986,229.5,0.18,0.123,0.155,717.97,Failure,0,Normal,Alert,Normal,Needs Attention
+EVT10500,2026-03-15,Churn_Model,South,Negative,Negative,0.462,169.4,0.045,0.096,0.109,437.75,Success,1,Normal,Alert,Normal,Needs Attention
+EVT10421,2026-05-25,Churn_Model,South,Negative,Negative,0.978,438.53999999999985,0.178,0.085,0.089,682.19,Success,1,Normal,Normal,Alert,Needs Attention
+EVT10445,2026-05-09,Churn_Model,East,Positive,Negative,0.762,166.5,0.039,0.308,0.094,1233.31,Success,0,Alert,Normal,Normal,Needs Attention
+EVT10080,2026-04-21,Demand_Model,North,Positive,Positive,0.488,193.7,0.133,0.277,0.057,1492.29,Success,1,Alert,Normal,Normal,Needs Attention
+EVT10319,2026-06-21,Demand_Model,East,Positive,Negative,0.485,259.8,0.075,0.227,0.013,212.93,Success,0,Alert,Normal,Normal,Needs Attention
+EVT10211,2026-03-10,Fraud_Model,South,Positive,Negative,0.724,438.53999999999985,0.147,0.196,0.111,266.25,Success,0,Normal,Alert,Alert,Needs Attention
+EVT10496,2026-03-08,Fraud_Model,East,Negative,Negative,0.479,193.7,0.049,0.206,0.118,980.27,Failure,1,Alert,Alert,Normal,Needs Attention
+EVT10173,2026-06-14,Fraud_Model,East,Positive,Positive,0.596,209.2,0.122,0.149,0.02,577.29,Success,1,Normal,Normal,Normal,Healthy
+EVT10454,2026-03-27,Fraud_Model,South,Positive,Positive,0.555,202.5,0.13,0.196,0.058,51.35,Success,1,Normal,Normal,Normal,Healthy
+EVT10375,2026-05-24,Fraud_Model,East,Positive,Negative,0.487,121.9,0.063,0.249,0.01,735.89,Success,0,Alert,Normal,Normal,Needs Attention
+EVT10359,2026-02-08,Churn_Model,West,Positive,Negative,0.853,188.1,0.096,0.018,0.012,643.17,Failure,0,Normal,Normal,Normal,Healthy
+EVT10466,2026-01-23,Demand_Model,South,Negative,Positive,0.904,141.0,0.114,0.233,0.004,1215.45,Success,0,Alert,Normal,Normal,Needs Attention
+EVT10154,2026-01-28,Demand_Model,South,Negative,Negative,0.459,154.9,0.139,0.149,0.147,625.57,Failure,1,Normal,Alert,Normal,Needs Attention
+EVT10003,2026-03-04,Demand_Model,North,Negative,Negative,0.538,211.1,0.151,0.027,0.067,1210.3,Success,1,Normal,Normal,Normal,Healthy
+EVT10336,2026-05-08,Fraud_Model,North,Positive,Negative,0.522,125.5,0.175,0.181,0.015,1225.18,Success,0,Normal,Normal,Normal,Healthy
+EVT10209,2026-02-07,Demand_Model,West,Negative,Negative,0.917,157.6,0.147,0.208,0.032,65.22,Failure,1,Alert,Normal,Normal,Needs Attention
+EVT10074,2026-01-14,Churn_Model,South,Negative,Negative,0.853,146.4,0.171,0.262,0.185,1016.59,Failure,1,Alert,Alert,Normal,Needs Attention
+EVT10495,2026-01-12,Demand_Model,South,Negative,Positive,0.83,245.4,0.179,0.215,0.161,1003.69,Success,0,Alert,Alert,Normal,Needs Attention
+EVT10452,2026-05-24,Demand_Model,South,Negative,Negative,0.926,347.6,0.104,0.075,0.102,132.82,Failure,1,Normal,Alert,Alert,Needs Attention
+EVT10205,2026-06-09,Demand_Model,East,Negative,Negative,0.813,181.8,0.152,0.225,0.149,1212.44,Success,1,Alert,Alert,Normal,Needs Attention
+EVT10069,2026-01-04,Churn_Model,East,Negative,Negative,0.734,115.4,0.127,0.013,0.13,1296.36,Success,1,Normal,Alert,Normal,Needs Attention
+EVT10091,2026-03-12,Churn_Model,South,Positive,Positive,0.952,250.5,0.023,0.28,0.124,809.17,Success,1,Alert,Alert,Normal,Needs Attention
+EVT10300,2026-06-07,Fraud_Model,North,Positive,Positive,0.803,304.9,0.042,0.313,0.143,130.35,Failure,1,Alert,Alert,Alert,Needs Attention
+EVT10034,2026-02-20,Demand_Model,East,Negative,Positive,0.606,296.7,0.075,0.302,0.152,1346.68,Success,0,Alert,Alert,Normal,Needs Attention
+EVT10071,2026-05-26,Churn_Model,North,Negative,Positive,0.707,145.5,0.165,0.161,0.111,1057.25,Success,0,Normal,Alert,Normal,Needs Attention
+EVT10469,2026-04-10,Churn_Model,East,Positive,Positive,0.855,191.2,0.011,0.234,0.065,592.22,Success,1,Alert,Normal,Normal,Needs Attention
+EVT10001,2026-04-13,Churn_Model,North,Negative,Negative,0.958,263.6,0.024,0.232,0.188,1267.74,Success,1,Alert,Alert,Normal,Needs Attention
+EVT10012,2026-04-27,Demand_Model,North,Negative,Negative,0.652,113.7,0.169,0.083,0.118,496.44,Failure,1,Normal,Alert,Normal,Needs Attention
+EVT10282,2026-06-18,Fraud_Model,South,Negative,Positive,0.682,235.6,0.098,0.158,0.089,904.36,Success,0,Normal,Normal,Normal,Healthy
+EVT10023,2026-05-10,Fraud_Model,East,Positive,Positive,0.896,231.4,0.041,0.185,0.047,111.58,Success,1,Normal,Normal,Normal,Healthy
+EVT10102,2026-02-02,Demand_Model,East,Positive,Negative,0.882,211.4,0.107,0.176,0.159,478.71,Success,0,Normal,Alert,Normal,Needs Attention
+EVT10269,2026-06-15,Churn_Model,South,Positive,Positive,0.91,151.5,0.016,0.084,0.052,852.27,Success,1,Normal,Normal,Normal,Healthy
+EVT10484,2026-03-25,Fraud_Model,East,Negative,Positive,0.546,125.3,0.123,0.34,0.125,972.3,Success,0,Alert,Alert,Normal,Needs Attention
+EVT10442,2026-02-17,Demand_Model,South,Negative,Negative,0.507,213.4,0.127,0.116,0.121,1010.72,Success,1,Normal,Alert,Normal,Needs Attention
+EVT10291,2026-05-16,Churn_Model,South,Positive,Positive,0.574,221.1,0.02,0.327,0.087,135.7,Success,1,Alert,Normal,Normal,Needs Attention
+EVT10085,2026-02-10,Fraud_Model,East,Positive,Negative,0.709,122.7,0.087,0.118,0.008,495.92,Success,0,Normal,Normal,Normal,Healthy
+EVT10246,2026-03-01,Demand_Model,North,Negative,Positive,0.954,129.9,0.173,0.163,0.188,80.48,Success,0,Normal,Alert,Normal,Needs Attention
+EVT10064,2026-05-12,Churn_Model,West,Negative,Positive,0.907,218.6,0.123,0.264,0.139,722.53,Success,0,Alert,Alert,Normal,Needs Attention
+EVT10056,2026-06-21,Demand_Model,North,Negative,Negative,0.458,187.1,0.135,0.252,0.151,250.12,Success,1,Alert,Alert,Normal,Needs Attention
+EVT10230,2026-06-17,Churn_Model,West,Negative,Positive,0.721,237.0,0.02,0.268,0.062,689.67,Success,0,Alert,Normal,Normal,Needs Attention
+EVT10019,2026-01-02,Fraud_Model,South,Positive,Positive,0.88,181.8,0.125,0.178,0.053,1390.22,Success,1,Normal,Normal,Normal,Healthy
+EVT10411,2026-02-24,Churn_Model,West,Negative,Negative,0.718,233.4,0.022,0.035,0.028,959.1,Success,1,Normal,Normal,Normal,Healthy
+EVT10210,2026-01-24,Fraud_Model,South,Positive,Positive,0.779,163.1,0.018,0.155,0.01,1347.84,Failure,1,Normal,Normal,Normal,Healthy
+EVT10395,2026-03-11,Demand_Model,North,Negative,Positive,0.712,146.2,0.052,0.33,0.025,512.1,Success,0,Alert,Normal,Normal,Needs Attention
+EVT10083,2026-06-03,Demand_Model,West,Positive,Positive,0.655,218.3,0.078,0.102,0.066,1026.87,Success,1,Normal,Normal,Normal,Healthy
+EVT10040,2026-05-15,Demand_Model,South,Negative,Negative,0.937,169.3,0.01,0.293,0.095,517.95,Success,1,Alert,Normal,Normal,Needs Attention
+EVT10456,2026-03-10,Fraud_Model,South,Negative,Negative,0.805,224.3,0.106,0.236,0.193,85.7,Success,1,Alert,Alert,Normal,Needs Attention
+EVT10047,2026-03-01,Demand_Model,North,Positive,Positive,0.627,270.2,0.158,0.277,0.094,1353.24,Success,1,Alert,Normal,Normal,Needs Attention
+EVT10413,2026-02-21,Churn_Model,West,Positive,Positive,0.986,290.0,0.075,0.19,0.021,936.89,Success,1,Normal,Normal,Normal,Healthy
+EVT10315,2026-01-04,Churn_Model,West,Positive,Negative,0.625,168.6,0.047,0.151,0.092,123.91,Failure,0,Normal,Normal,Normal,Healthy
+EVT10355,2026-06-10,Fraud_Model,South,Negative,Positive,0.984,155.7,0.084,0.164,0.14,1108.75,Success,0,Normal,Alert,Normal,Needs Attention
+EVT10078,2026-02-09,Demand_Model,West,Positive,Negative,0.683,181.8,0.164,0.083,0.086,1215.94,Success,0,Normal,Normal,Normal,Healthy
+EVT10398,2026-04-11,Churn_Model,North,Positive,Negative,0.783,184.8,0.013,0.128,0.117,882.08,Success,0,Normal,Alert,Normal,Needs Attention
+EVT10105,2026-02-10,Fraud_Model,West,Negative,Positive,0.878,341.4,0.159,0.303,0.063,444.09,Failure,0,Alert,Normal,Alert,Needs Attention
+EVT10204,2026-06-09,Demand_Model,South,Positive,Negative,0.582,369.8,0.113,0.137,0.18,924.83,Success,0,Normal,Alert,Alert,Needs Attention
+EVT10381,2026-03-07,Demand_Model,West,Negative,Positive,0.573,149.9,0.049,0.245,0.174,333.85,Success,0,Alert,Alert,Normal,Needs Attention
+EVT10488,2026-06-12,Fraud_Model,East,Positive,Positive,0.659,310.4,0.161,0.055,0.155,1386.19,Failure,1,Normal,Alert,Alert,Needs Attention
+EVT10070,2026-02-23,Fraud_Model,East,Positive,Negative,0.583,123.6,0.051,0.324,0.042,908.84,Failure,0,Alert,Normal,Normal,Needs Attention
+EVT10408,2026-04-04,Churn_Model,West,Negative,Positive,0.598,116.4,0.024,0.171,0.13,226.46,Success,0,Normal,Alert,Normal,Needs Attention
+EVT10256,2026-05-27,Churn_Model,East,Positive,Positive,0.896,105.2,0.034,0.167,0.056,257.29,Success,1,Normal,Normal,Normal,Healthy
+EVT10392,2026-02-18,Demand_Model,South,Negative,Negative,0.518,234.9,0.155,0.245,0.147,1366.62,Failure,1,Alert,Alert,Normal,Needs Attention
+EVT10312,2026-03-02,Churn_Model,West,Positive,Positive,0.818,248.2,0.067,0.184,0.156,216.39,Success,1,Normal,Alert,Normal,Needs Attention
+EVT10235,2026-05-09,Fraud_Model,East,Negative,Negative,0.738,121.6,0.076,0.21,0.186,366.35,Success,1,Alert,Alert,Normal,Needs Attention
+EVT10473,2026-05-27,Fraud_Model,West,Negative,Negative,0.905,140.8,0.019,0.248,0.13,526.41,Failure,1,Alert,Alert,Normal,Needs Attention
+EVT10324,2026-04-09,Churn_Model,North,Negative,Negative,0.72,188.5,0.098,0.204,0.155,988.81,Success,1,Alert,Alert,Normal,Needs Attention
+EVT10094,2026-05-09,Churn_Model,West,Positive,Positive,0.498,135.3,0.041,0.167,0.07,452.88,Success,1,Normal,Normal,Normal,Healthy
+EVT10138,2026-05-12,Churn_Model,North,Negative,Negative,0.739,144.5,0.038,0.331,0.151,1232.87,Success,1,Alert,Alert,Normal,Needs Attention
+EVT10177,2026-02-28,Fraud_Model,North,Positive,Positive,0.697,130.3,0.079,0.081,0.117,478.43,Success,1,Normal,Alert,Normal,Needs Attention
+EVT10337,2026-01-18,Demand_Model,North,Positive,Positive,0.505,170.5,0.086,0.333,0.047,445.34,Success,1,Alert,Normal,Normal,Needs Attention
+EVT10132,2026-05-04,Churn_Model,West,Negative,Positive,0.531,191.9,0.154,0.266,0.092,586.54,Success,0,Alert,Normal,Normal,Needs Attention
+EVT10026,2026-02-27,Demand_Model,East,Negative,Positive,0.638,232.8,0.125,0.109,0.122,1264.03,Failure,0,Normal,Alert,Normal,Needs Attention
+EVT10365,2026-06-01,Fraud_Model,East,Positive,Negative,0.659,438.53999999999985,0.146,0.227,0.039,1411.06,Success,0,Alert,Normal,Alert,Needs Attention
+EVT10133,2026-06-28,Fraud_Model,South,Positive,Negative,0.679,174.2,0.064,0.079,0.173,848.18,Success,0,Normal,Alert,Normal,Needs Attention
+EVT10332,2026-04-26,Demand_Model,East,Positive,Positive,0.782,159.5,0.105,0.178,0.161,1122.54,Success,1,Normal,Alert,Normal,Needs Attention
+EVT10412,2026-06-17,Churn_Model,West,Positive,Negative,0.457,192.2,0.045,0.159,0.109,1222.17,Success,0,Normal,Alert,Normal,Needs Attention
+EVT10101,2026-06-12,Demand_Model,West,Positive,Positive,0.914,128.0,0.107,0.141,0.087,119.73,Failure,1,Normal,Normal,Normal,Healthy
+EVT10350,2026-05-07,Demand_Model,South,Negative,Positive,0.573,108.3,0.123,0.285,0.146,135.81,Success,0,Alert,Alert,Normal,Needs Attention
+EVT10087,2026-01-15,Fraud_Model,North,Positive,Negative,0.54,121.4,0.047,0.036,0.119,1204.94,Success,0,Normal,Alert,Normal,Needs Attention
+EVT10076,2026-02-17,Churn_Model,West,Negative,Positive,0.731,182.2,0.135,0.307,0.064,880.33,Success,0,Alert,Normal,Normal,Needs Attention
+EVT10443,2026-03-30,Fraud_Model,East,Positive,Positive,0.532,203.4,0.034,0.011,0.105,1221.19,Failure,1,Normal,Alert,Normal,Needs Attention
+EVT10016,2026-05-11,Fraud_Model,South,Negative,Negative,0.917,149.0,0.106,0.123,0.011,417.77,Success,1,Normal,Normal,Normal,Healthy
+EVT10326,2026-02-06,Demand_Model,North,Positive,Positive,0.531,211.8,0.117,0.139,0.113,521.14,Success,1,Normal,Alert,Normal,Needs Attention
+EVT10389,2026-02-27,Demand_Model,East,Negative,Positive,0.708,141.2,0.022,0.053,0.059,314.99,Success,0,Normal,Normal,Normal,Healthy
+EVT10020,2026-03-29,Churn_Model,North,Positive,Positive,0.946,129.4,0.034,0.106,0.111,522.44,Success,1,Normal,Alert,Normal,Needs Attention
+EVT10325,2026-05-04,Demand_Model,West,Positive,Negative,0.594,109.9,0.056,0.305,0.026,1273.44,Success,0,Alert,Normal,Normal,Needs Attention
+EVT10335,2026-03-08,Demand_Model,South,Positive,Negative,0.966,210.6,0.039,0.33,0.067,332.42,Success,0,Alert,Normal,Normal,Needs Attention
+EVT10057,2026-01-08,Fraud_Model,North,Negative,Negative,0.767,237.1,0.176,0.014,0.043,167.51,Failure,1,Normal,Normal,Normal,Healthy
+EVT10339,2026-02-23,Churn_Model,North,Positive,Negative,0.959,79.1,0.041,0.133,0.19,589.57,Success,0,Normal,Alert,Normal,Needs Attention
+EVT10409,2026-02-16,Churn_Model,South,Negative,Negative,0.951,95.4,0.067,0.029,0.175,902.74,Success,1,Normal,Alert,Normal,Needs Attention
+EVT10334,2026-06-10,Fraud_Model,West,Negative,Negative,0.662,438.53999999999985,0.13,0.167,0.032,74.18,Success,1,Normal,Normal,Alert,Needs Attention
+EVT10182,2026-04-23,Fraud_Model,South,Negative,Negative,0.988,117.8,0.166,0.298,0.123,299.52,Success,1,Alert,Alert,Normal,Needs Attention
+EVT10228,2026-02-21,Churn_Model,South,Positive,Negative,0.756,293.1,0.025,0.3,0.12,1261.29,Success,0,Alert,Alert,Normal,Needs Attention
+EVT10427,2026-03-31,Fraud_Model,North,Positive,Negative,0.857,245.4,0.176,0.342,0.101,1098.45,Success,0,Alert,Alert,Normal,Needs Attention
+EVT10181,2026-06-29,Demand_Model,North,Positive,Negative,0.646,146.2,0.088,0.263,0.14,265.12,Failure,0,Alert,Alert,Normal,Needs Attention
+EVT10330,2026-04-05,Fraud_Model,East,Positive,Negative,0.802,211.2,0.117,0.17,0.138,760.31,Failure,0,Normal,Alert,Normal,Needs Attention
+EVT10239,2026-06-08,Demand_Model,North,Positive,Negative,0.892,297.1,0.163,0.305,0.102,71.12,Success,0,Alert,Alert,Normal,Needs Attention
+EVT10245,2026-04-22,Demand_Model,North,Negative,Positive,0.759,131.5,0.049,0.161,0.136,743.59,Success,0,Normal,Alert,Normal,Needs Attention
+EVT10251,2026-05-20,Churn_Model,East,Negative,Negative,0.525,186.8,0.132,0.226,0.192,1263.99,Success,1,Alert,Alert,Normal,Needs Attention
+EVT10418,2026-04-16,Fraud_Model,East,Positive,Positive,0.744,119.6,0.143,0.063,0.007,312.7,Success,1,Normal,Normal,Normal,Healthy
+EVT10118,2026-04-14,Demand_Model,East,Positive,Negative,0.879,150.5,0.02,0.082,0.068,1167.15,Success,0,Normal,Normal,Normal,Healthy
+EVT10043,2026-06-16,Fraud_Model,East,Negative,Negative,0.919,245.5,0.104,0.059,0.009,183.54,Failure,1,Normal,Normal,Normal,Healthy
+EVT10322,2026-04-27,Churn_Model,North,Positive,Negative,0.594,169.7,0.014,0.057,0.099,683.72,Success,0,Normal,Normal,Normal,Healthy
+EVT10347,2026-06-24,Churn_Model,East,Positive,Positive,0.718,181.8,0.019,0.034,0.084,1029.85,Success,1,Normal,Normal,Normal,Healthy
+EVT10183,2026-03-03,Fraud_Model,East,Positive,Positive,0.691,299.8,0.04,0.195,0.173,1324.22,Success,1,Normal,Alert,Normal,Needs Attention
+EVT10156,2026-04-18,Demand_Model,South,Positive,Negative,0.892,263.0,0.171,0.085,0.117,651.69,Success,0,Normal,Alert,Normal,Needs Attention
+EVT10281,2026-06-12,Fraud_Model,East,Negative,Positive,0.611,203.0,0.15,0.26,0.08,529.07,Success,0,Alert,Normal,Normal,Needs Attention
+EVT10127,2026-01-27,Churn_Model,South,Negative,Positive,0.845,117.1,0.142,0.151,0.035,1451.49,Success,0,Normal,Normal,Normal,Healthy
+EVT10449,2026-04-03,Demand_Model,West,Negative,Negative,0.751,212.2,0.128,0.253,0.156,242.75,Success,1,Alert,Alert,Normal,Needs Attention
+EVT10032,2026-01-15,Demand_Model,South,Positive,Negative,0.721,173.6,0.028,0.304,0.14,773.51,Success,0,Alert,Alert,Normal,Needs Attention
+EVT10114,2026-03-03,Demand_Model,North,Positive,Negative,0.451,125.2,0.131,0.051,0.033,158.23,Success,0,Normal,Normal,Normal,Healthy
+EVT10149,2026-03-07,Churn_Model,North,Positive,Negative,0.772,149.8,0.095,0.333,0.097,1479.42,Success,0,Alert,Normal,Normal,Needs Attention
+EVT10430,2026-01-23,Demand_Model,North,Positive,Positive,0.843,262.6,0.176,0.274,0.154,889.52,Success,1,Alert,Alert,Normal,Needs Attention
+EVT10401,2026-03-01,Fraud_Model,West,Positive,Negative,0.51,181.2,0.08,0.238,0.049,1085.9,Success,0,Alert,Normal,Normal,Needs Attention
+EVT10058,2026-06-24,Demand_Model,South,Positive,Negative,0.541,131.8,0.019,0.149,0.067,1253.1,Success,0,Normal,Normal,Normal,Healthy
+EVT10195,2026-05-10,Demand_Model,South,Positive,Positive,0.612,284.5,0.155,0.25,0.029,1377.89,Success,1,Alert,Normal,Normal,Needs Attention
+EVT10025,2026-06-10,Fraud_Model,North,Negative,Negative,0.762,324.0,0.032,0.346,0.189,1358.92,Success,1,Alert,Alert,Alert,Needs Attention
+EVT10018,2026-02-22,Fraud_Model,West,Positive,Negative,0.511,398.5,0.154,0.14,0.046,168.42,Success,0,Normal,Normal,Alert,Needs Attention
+EVT10298,2026-04-29,Demand_Model,West,Positive,Negative,0.878,131.5,0.16,0.118,0.112,1024.97,Success,0,Normal,Alert,Normal,Needs Attention
+EVT10067,2026-02-23,Fraud_Model,South,Negative,Negative,0.509,134.3,0.102,0.162,0.011,511.54,Success,1,Normal,Normal,Normal,Healthy
+EVT10212,2026-04-26,Churn_Model,North,Negative,Negative,0.536,166.7,0.04,0.187,0.031,1189.59,Success,1,Normal,Normal,Normal,Healthy
+EVT10404,2026-04-13,Fraud_Model,West,Positive,Positive,0.653,159.4,0.159,0.198,0.067,417.74,Success,1,Normal,Normal,Normal,Healthy
+EVT10095,2026-05-16,Churn_Model,North,Positive,Negative,0.838,85.3,0.084,0.151,0.183,1168.69,Failure,0,Normal,Alert,Normal,Needs Attention
+EVT10155,2026-01-28,Demand_Model,West,Negative,Positive,0.634,113.1,0.07,0.311,0.126,710.31,Success,0,Alert,Alert,Normal,Needs Attention
+EVT10441,2026-04-28,Demand_Model,East,Positive,Negative,0.78,211.9,0.103,0.113,0.02,1075.17,Success,0,Normal,Normal,Normal,Healthy
+EVT10024,2026-01-21,Demand_Model,West,Negative,Positive,0.81,323.6,0.057,0.096,0.19,1042.71,Success,0,Normal,Alert,Alert,Needs Attention
+EVT10226,2026-05-28,Demand_Model,West,Positive,Negative,0.875,151.3,0.092,0.157,0.015,1140.59,Failure,0,Normal,Normal,Normal,Healthy
+EVT10433,2026-05-20,Fraud_Model,North,Negative,Positive,0.5,149.6,0.109,0.102,0.124,927.02,Success,0,Normal,Alert,Normal,Needs Attention
+EVT10447,2026-03-10,Fraud_Model,East,Negative,Positive,0.684,128.6,0.022,0.345,0.039,1117.08,Success,0,Alert,Normal,Normal,Needs Attention
+EVT10006,2026-03-13,Fraud_Model,South,Negative,Negative,0.534,151.4,0.157,0.131,0.068,1284.81,Failure,1,Normal,Normal,Normal,Healthy
+EVT10117,2026-06-21,Churn_Model,East,Positive,Positive,0.771,149.7,0.09,0.05,0.055,1065.63,Success,1,Normal,Normal,Normal,Healthy
+EVT10046,2026-03-30,Churn_Model,North,Positive,Positive,0.801,196.1,0.073,0.18,0.134,1244.23,Success,1,Normal,Alert,Normal,Needs Attention
+EVT10017,2026-05-30,Fraud_Model,South,Negative,Negative,0.865,176.1,0.168,0.311,0.075,1146.68,Success,1,Alert,Normal,Normal,Needs Attention
+EVT10494,2026-04-11,Fraud_Model,North,Positive,Negative,0.572,249.3,0.085,0.317,0.08,257.58,Success,0,Alert,Normal,Normal,Needs Attention
+EVT10362,2026-04-09,Fraud_Model,North,Positive,Positive,0.507,186.1,0.013,0.165,0.15,1109.78,Success,1,Normal,Alert,Normal,Needs Attention
+EVT10004,2026-01-15,Churn_Model,South,Negative,Positive,0.552,135.2,0.032,0.32,0.146,1301.36,Success,0,Alert,Alert,Normal,Needs Attention
+EVT10295,2026-02-02,Churn_Model,West,Negative,Positive,0.804,248.4,0.045,0.168,0.18,1395.68,Success,0,Normal,Alert,Normal,Needs Attention
+EVT10186,2026-02-08,Demand_Model,East,Positive,Negative,0.498,199.9,0.012,0.185,0.158,588.74,Success,0,Normal,Alert,Normal,Needs Attention
+EVT10061,2026-06-13,Demand_Model,South,Negative,Negative,0.72,164.4,0.108,0.186,0.183,177.09,Success,1,Normal,Alert,Normal,Needs Attention
+EVT10111,2026-02-02,Fraud_Model,East,Negative,Positive,0.652,150.1,0.045,0.151,0.188,839.92,Failure,0,Normal,Alert,Normal,Needs Attention
+EVT10321,2026-02-15,Fraud_Model,West,Negative,Negative,0.651,139.0,0.138,0.24,0.084,1183.37,Failure,1,Alert,Normal,Normal,Needs Attention
+EVT10266,2026-03-16,Demand_Model,West,Negative,Positive,0.956,236.1,0.053,0.273,0.019,737.93,Success,0,Alert,Normal,Normal,Needs Attention
+EVT10030,2026-02-28,Demand_Model,South,Positive,Positive,0.918,67.4,0.118,0.282,0.001,1390.17,Success,1,Alert,Normal,Normal,Needs Attention
+EVT10263,2026-06-10,Demand_Model,North,Negative,Negative,0.869,270.1,0.161,0.167,0.044,1331.17,Failure,1,Normal,Normal,Normal,Healthy
+EVT10477,2026-01-04,Demand_Model,North,Positive,Positive,0.658,283.8,0.102,0.313,0.023,670.87,Success,1,Alert,Normal,Normal,Needs Attention
+EVT10027,2026-01-22,Churn_Model,East,Positive,Negative,0.536,146.8,0.17,0.272,0.185,234.69,Failure,0,Alert,Alert,Normal,Needs Attention
+EVT10008,2026-04-13,Churn_Model,East,Positive,Negative,0.97,204.9,0.164,0.036,0.005,1103.92,Success,0,Normal,Normal,Normal,Healthy
+EVT10458,2026-04-04,Churn_Model,West,Negative,Positive,0.851,175.6,0.124,0.025,0.03,653.58,Success,0,Normal,Normal,Normal,Healthy
+EVT10109,2026-01-12,Fraud_Model,North,Positive,Negative,0.497,137.9,0.113,0.194,0.108,273.18,Success,0,Normal,Alert,Normal,Needs Attention
+EVT10038,2026-05-11,Churn_Model,North,Negative,Negative,0.95,159.5,0.118,0.307,0.075,1342.24,Failure,1,Alert,Normal,Normal,Needs Attention
+EVT10158,2026-03-25,Demand_Model,South,Positive,Negative,0.632,147.6,0.116,0.31,0.071,246.27,Success,0,Alert,Normal,Normal,Needs Attention
+EVT10471,2026-06-29,Churn_Model,East,Negative,Negative,0.816,156.1,0.116,0.282,0.13,269.49,Success,1,Alert,Alert,Normal,Needs Attention
+EVT10119,2026-02-04,Demand_Model,South,Positive,Negative,0.799,164.5,0.124,0.116,0.09,539.09,Failure,0,Normal,Normal,Normal,Healthy
+EVT10115,2026-02-06,Demand_Model,North,Positive,Positive,0.795,172.2,0.169,0.226,0.048,1366.22,Success,1,Alert,Normal,Normal,Needs Attention
+EVT10176,2026-06-01,Demand_Model,North,Negative,Negative,0.575,199.7,0.095,0.105,0.0935,418.68,Success,1,Normal,Normal,Normal,Healthy
+EVT10193,2026-04-23,Fraud_Model,West,Positive,Negative,0.894,129.0,0.174,0.258,0.156,506.77,Success,0,Alert,Alert,Normal,Needs Attention
+EVT10273,2026-04-09,Demand_Model,West,Positive,Positive,0.647,188.5,0.16,0.312,0.093,424.25,Success,1,Alert,Normal,Normal,Needs Attention
+EVT10145,2026-06-09,Churn_Model,North,Negative,Positive,0.791,133.1,0.02,0.049,0.121,215.5,Success,0,Normal,Alert,Normal,Needs Attention
+EVT10489,2026-05-04,Fraud_Model,South,Negative,Positive,0.667,218.7,0.024,0.301,0.135,1227.51,Success,0,Alert,Alert,Normal,Needs Attention
+EVT10383,2026-03-27,Demand_Model,North,Negative,Negative,0.81,230.8,0.147,0.181,0.146,239.23,Success,1,Normal,Alert,Normal,Needs Attention
+EVT10356,2026-05-17,Demand_Model,South,Negative,Positive,0.689,261.8,0.103,0.187,0.073,879.09,Success,0,Normal,Normal,Normal,Healthy
+EVT10278,2026-04-20,Fraud_Model,South,Positive,Negative,0.712,146.4,0.134,0.156,0.063,1359.01,Failure,0,Normal,Normal,Normal,Healthy
+EVT10221,2026-05-28,Demand_Model,West,Positive,Negative,0.896,218.9,0.036,0.128,0.156,84.96,Success,0,Normal,Alert,Normal,Needs Attention
+EVT10450,2026-03-17,Churn_Model,North,Positive,Negative,0.888,94.0,0.088,0.106,0.158,975.81,Success,0,Normal,Alert,Normal,Needs Attention
+EVT10142,2026-01-29,Fraud_Model,East,Positive,Positive,0.561,177.4,0.067,0.159,0.088,138.6,Success,1,Normal,Normal,Normal,Healthy
+EVT10369,2026-02-26,Demand_Model,East,Negative,Positive,0.959,154.7,0.105,0.293,0.044,338.28,Success,0,Alert,Normal,Normal,Needs Attention
+EVT10068,2026-04-16,Churn_Model,West,Negative,Negative,0.53,222.9,0.027,0.284,0.114,759.1,Success,1,Alert,Alert,Normal,Needs Attention
+EVT10361,2026-01-26,Demand_Model,West,Negative,Negative,0.883,133.1,0.164,0.164,0.113,489.1,Success,1,Normal,Alert,Normal,Needs Attention
+EVT10169,2026-04-13,Demand_Model,North,Positive,Negative,0.899,120.7,0.033,0.289,0.189,948.95,Success,0,Alert,Alert,Normal,Needs Attention
+EVT10498,2026-06-10,Churn_Model,East,Negative,Positive,0.774,422.5,0.124,0.136,0.005,1192.56,Success,0,Normal,Normal,Alert,Needs Attention
+EVT10379,2026-04-02,Demand_Model,East,Negative,Negative,0.935,199.5,0.131,0.22,0.066,1129.87,Success,1,Alert,Normal,Normal,Needs Attention
+EVT10366,2026-01-13,Demand_Model,West,Positive,Negative,0.699,95.7,0.115,0.334,0.019,557.29,Success,0,Alert,Normal,Normal,Needs Attention
+EVT10194,2026-01-02,Fraud_Model,East,Negative,Negative,0.451,161.9,0.077,0.217,0.048,1197.54,Success,1,Alert,Normal,Normal,Needs Attention
+EVT10250,2026-02-17,Demand_Model,South,Negative,Negative,0.777,104.7,0.083,0.191,0.18,460.88,Failure,1,Normal,Alert,Normal,Needs Attention
+EVT10110,2026-06-11,Churn_Model,East,Negative,Positive,0.891,105.9,0.059,0.127,0.197,1466.7,Success,0,Normal,Alert,Normal,Needs Attention
+EVT10434,2026-05-09,Fraud_Model,West,Positive,Positive,0.971,256.7,0.045,0.044,0.133,611.8,Success,1,Normal,Alert,Normal,Needs Attention
+EVT10146,2026-03-12,Demand_Model,South,Positive,Positive,0.482,204.4,0.127,0.27,0.173,1414.52,Success,1,Alert,Alert,Normal,Needs Attention
+EVT10093,2026-03-29,Demand_Model,South,Negative,Positive,0.764,161.9,0.073,0.127,0.101,482.21,Success,0,Normal,Alert,Normal,Needs Attention
+EVT10153,2026-05-14,Churn_Model,North,Negative,Positive,0.841,198.9,0.061,0.239,0.027,713.29,Success,0,Alert,Normal,Normal,Needs Attention
+EVT10223,2026-05-27,Churn_Model,North,Negative,Positive,0.959,150.8,0.172,0.064,0.041,234.29,Success,0,Normal,Normal,Normal,Healthy
+EVT10410,2026-04-09,Churn_Model,East,Negative,Negative,0.815,354.5,0.125,0.33,0.158,508.31,Success,1,Alert,Alert,Alert,Needs Attention
+EVT10084,2026-05-04,Fraud_Model,South,Positive,Positive,0.556,154.6,0.14,0.089,0.059,1162.87,Success,1,Normal,Normal,Normal,Healthy
+EVT10249,2026-05-09,Demand_Model,West,Positive,Negative,0.619,144.7,0.048,0.197,0.088,1192.23,Failure,0,Normal,Normal,Normal,Healthy
+EVT10166,2026-05-01,Fraud_Model,East,Positive,Positive,0.636,169.7,0.092,0.107,0.14,285.68,Success,1,Normal,Alert,Normal,Needs Attention
+EVT10164,2026-05-01,Churn_Model,South,Negative,Negative,0.667,153.3,0.105,0.079,0.175,1308.85,Failure,1,Normal,Alert,Normal,Needs Attention
+EVT10200,2026-05-06,Demand_Model,West,Positive,Positive,0.976,175.8,0.143,0.326,0.198,518.49,Success,1,Alert,Alert,Normal,Needs Attention
+EVT10232,2026-02-08,Fraud_Model,South,Positive,Negative,0.741,105.7,0.057,0.151,0.131,433.48,Failure,0,Normal,Alert,Normal,Needs Attention
+EVT10075,2026-04-05,Demand_Model,West,Positive,Positive,0.836,205.2,0.015,0.036,0.073,223.36,Failure,1,Normal,Normal,Normal,Healthy
+EVT10311,2026-04-21,Fraud_Model,North,Positive,Positive,0.764,218.9,0.031,0.055,0.091,1446.58,Success,1,Normal,Normal,Normal,Healthy
+EVT10455,2026-01-29,Fraud_Model,North,Negative,Positive,0.925,152.5,0.073,0.347,0.019,1359.67,Failure,0,Alert,Normal,Normal,Needs Attention
+EVT10254,2026-01-09,Churn_Model,East,Positive,Negative,0.621,200.3,0.065,0.19,0.106,956.73,Success,0,Normal,Alert,Normal,Needs Attention
+EVT10120,2026-04-11,Fraud_Model,South,Positive,Positive,0.544,139.4,0.109,0.067,0.183,1415.29,Success,1,Normal,Alert,Normal,Needs Attention
+EVT10285,2026-02-02,Fraud_Model,West,Positive,Negative,0.873,260.1,0.059,0.264,0.002,1408.55,Success,0,Alert,Normal,Normal,Needs Attention
+EVT10302,2026-04-19,Churn_Model,East,Negative,Positive,0.734,286.4,0.134,0.148,0.065,1160.66,Success,0,Normal,Normal,Normal,Healthy
+EVT10482,2026-05-08,Demand_Model,North,Negative,Negative,0.808,338.0,0.136,0.306,0.025,349.54,Success,1,Alert,Normal,Alert,Needs Attention
+EVT10357,2026-02-12,Fraud_Model,East,Positive,Negative,0.476,152.4,0.063,0.031,0.113,679.38,Success,0,Normal,Alert,Normal,Needs Attention
+EVT10403,2026-01-05,Fraud_Model,East,Negative,Positive,0.501,194.2,0.083,0.114,0.069,231.79,Success,0,Normal,Normal,Normal,Healthy
+EVT10229,2026-06-10,Demand_Model,North,Negative,Positive,0.661,117.2,0.016,0.194,0.187,335.49,Failure,0,Normal,Alert,Normal,Needs Attention
+EVT10262,2026-04-30,Churn_Model,North,Negative,Positive,0.493,140.7,0.15,0.289,0.031,1431.0,Success,0,Alert,Normal,Normal,Needs Attention
+EVT10238,2026-05-31,Demand_Model,West,Negative,Negative,0.564,152.8,0.154,0.303,0.048,695.81,Success,1,Alert,Normal,Normal,Needs Attention
+EVT10438,2026-02-03,Demand_Model,East,Positive,Positive,0.673,158.9,0.098,0.063,0.086,435.7,Success,1,Normal,Normal,Normal,Healthy
+EVT10475,2026-01-01,Churn_Model,South,Negative,Negative,0.721,228.2,0.076,0.185,0.024,314.56,Failure,1,Normal,Normal,Normal,Healthy
+EVT10037,2026-03-05,Demand_Model,South,Negative,Positive,0.863,153.0,0.029,0.15,0.187,483.24,Success,0,Normal,Alert,Normal,Needs Attention
+EVT10197,2026-03-28,Churn_Model,West,Positive,Positive,0.706,157.7,0.063,0.136,0.005,495.11,Success,1,Normal,Normal,Normal,Healthy
+EVT10140,2026-05-23,Demand_Model,West,Negative,Positive,0.619,148.9,0.148,0.179,0.06,161.25,Success,0,Normal,Normal,Normal,Healthy
+EVT10368,2026-05-15,Demand_Model,South,Positive,Positive,0.974,142.1,0.027,0.209,0.033,1001.06,Success,1,Alert,Normal,Normal,Needs Attention
+EVT10248,2026-01-02,Fraud_Model,South,Positive,Negative,0.709,178.8,0.126,0.157,0.064,1246.04,Success,0,Normal,Normal,Normal,Healthy
+EVT10288,2026-02-17,Demand_Model,West,Positive,Negative,0.823,217.1,0.103,0.339,0.022,1147.3,Success,0,Alert,Normal,Normal,Needs Attention
+EVT10378,2026-05-23,Churn_Model,South,Positive,Positive,0.728,279.8,0.173,0.321,0.056,529.31,Success,1,Alert,Normal,Normal,Needs Attention
+EVT10060,2026-03-22,Churn_Model,West,Positive,Negative,0.86,188.9,0.09,0.048,0.155,636.85,Success,0,Normal,Alert,Normal,Needs Attention
+EVT10112,2026-02-17,Fraud_Model,East,Negative,Negative,0.734,274.7,0.036,0.259,0.091,246.75,Success,1,Alert,Normal,Normal,Needs Attention
+EVT10090,2026-03-30,Demand_Model,East,Positive,Positive,0.812,164.3,0.108,0.187,0.059,849.02,Failure,1,Normal,Normal,Normal,Healthy
+EVT10267,2026-04-23,Fraud_Model,North,Negative,Negative,0.923,78.1,0.06,0.264,0.064,60.63,Success,1,Alert,Normal,Normal,Needs Attention
+EVT10007,2026-01-21,Demand_Model,West,Negative,Positive,0.577,80.4,0.107,0.015,0.198,1487.61,Failure,0,Normal,Alert,Normal,Needs Attention
+EVT10457,2026-02-16,Churn_Model,North,Negative,Negative,0.618,119.7,0.087,0.078,0.027,353.71,Success,1,Normal,Normal,Normal,Healthy
+EVT10348,2026-03-27,Churn_Model,East,Negative,Negative,0.659,208.4,0.034,0.199,0.002,946.98,Success,1,Normal,Normal,Normal,Healthy
+EVT10341,2026-03-08,Churn_Model,West,Negative,Positive,0.491,209.7,0.147,0.047,0.053,148.56,Success,0,Normal,Normal,Normal,Healthy
+EVT10159,2026-01-30,Fraud_Model,North,Negative,Negative,0.939,184.5,0.168,0.259,0.009,336.58,Failure,1,Alert,Normal,Normal,Needs Attention
+EVT10151,2026-02-14,Fraud_Model,East,Negative,Negative,0.689,213.2,0.018,0.218,0.136,940.27,Success,1,Alert,Alert,Normal,Needs Attention
+EVT10178,2026-04-28,Churn_Model,East,Negative,Positive,0.553,214.7,0.172,0.024,0.045,818.46,Failure,0,Normal,Normal,Normal,Healthy
+EVT10397,2026-02-23,Churn_Model,East,Positive,Positive,0.731,141.9,0.042,0.053,0.165,236.46,Failure,1,Normal,Alert,Normal,Needs Attention
+EVT10185,2026-01-12,Churn_Model,East,Positive,Negative,0.763,167.9,0.012,0.163,0.175,1311.41,Failure,0,Normal,Alert,Normal,Needs Attention
+EVT10318,2026-01-17,Fraud_Model,West,Negative,Negative,0.557,107.0,0.035,0.034,0.04,902.16,Success,1,Normal,Normal,Normal,Healthy
+EVT10011,2026-03-29,Churn_Model,West,Negative,Negative,0.978,144.0,0.074,0.154,0.104,927.95,Success,1,Normal,Alert,Normal,Needs Attention
+EVT10384,2026-02-20,Fraud_Model,East,Negative,Negative,0.456,242.8,0.125,0.342,0.097,688.78,Success,1,Alert,Normal,Normal,Needs Attention
+EVT10104,2026-01-05,Churn_Model,South,Positive,Negative,0.609,205.6,0.103,0.262,0.028,808.66,Success,0,Alert,Normal,Normal,Needs Attention
+EVT10082,2026-01-24,Demand_Model,South,Negative,Positive,0.804,250.2,0.017,0.137,0.059,1181.5,Success,0,Normal,Normal,Normal,Healthy
+EVT10039,2026-02-20,Fraud_Model,West,Negative,Positive,0.687,232.3,0.141,0.227,0.142,69.77,Failure,0,Alert,Alert,Normal,Needs Attention
+EVT10317,2026-02-18,Demand_Model,South,Positive,Positive,0.79,169.3,0.102,0.143,0.061,351.29,Success,1,Normal,Normal,Normal,Healthy
+EVT10168,2026-01-03,Churn_Model,West,Positive,Positive,0.689,222.7,0.125,0.184,0.112,105.23,Success,1,Normal,Alert,Normal,Needs Attention
+EVT10474,2026-04-06,Fraud_Model,North,Negative,Positive,0.704,220.8,0.117,0.151,0.042,128.98,Success,0,Normal,Normal,Normal,Healthy
+EVT10299,2026-01-22,Demand_Model,North,Negative,Positive,0.669,149.7,0.019,0.337,0.166,296.32,Success,0,Alert,Alert,Normal,Needs Attention
+EVT10405,2026-01-06,Demand_Model,West,Positive,Positive,0.747,91.8,0.113,0.278,0.062,981.03,Failure,1,Alert,Normal,Normal,Needs Attention
+EVT10199,2026-05-27,Churn_Model,South,Negative,Positive,0.515,156.2,0.088,0.129,0.044,1033.81,Success,0,Normal,Normal,Normal,Healthy
+EVT10377,2026-04-25,Demand_Model,West,Positive,Positive,0.495,191.1,0.03,0.088,0.057,1064.04,Failure,1,Normal,Normal,Normal,Healthy
+EVT10147,2026-03-27,Churn_Model,North,Positive,Negative,0.527,145.7,0.127,0.241,0.164,1315.35,Success,0,Alert,Alert,Normal,Needs Attention
+EVT10396,2026-01-15,Churn_Model,East,Positive,Positive,0.947,86.4,0.038,0.274,0.034,201.78,Success,1,Alert,Normal,Normal,Needs Attention
+EVT10148,2026-01-28,Demand_Model,North,Negative,Negative,0.598,198.3,0.168,0.273,0.035,705.53,Success,1,Alert,Normal,Normal,Needs Attention
+EVT10483,2026-06-09,Churn_Model,North,Positive,Positive,0.451,137.6,0.046,0.147,0.006,504.24,Failure,1,Normal,Normal,Normal,Healthy
+EVT10290,2026-05-08,Fraud_Model,East,Negative,Negative,0.792,118.1,0.11,0.317,0.1,290.81,Success,1,Alert,Alert,Normal,Needs Attention
+EVT10124,2026-01-05,Demand_Model,East,Positive,Positive,0.751,111.0,0.121,0.265,0.181,1464.01,Success,1,Alert,Alert,Normal,Needs Attention
+EVT10372,2026-01-20,Fraud_Model,West,Positive,Positive,0.673,242.3,0.101,0.262,0.018,150.27,Success,1,Alert,Normal,Normal,Needs Attention
+EVT10097,2026-05-19,Churn_Model,South,Positive,Negative,0.977,188.3,0.068,0.111,0.091,1257.0,Success,0,Normal,Normal,Normal,Healthy
+EVT10144,2026-01-13,Demand_Model,West,Positive,Negative,0.589,271.4,0.102,0.184,0.188,204.19,Success,0,Normal,Alert,Normal,Needs Attention
+EVT10240,2026-02-11,Demand_Model,South,Positive,Negative,0.624,163.7,0.159,0.256,0.155,408.73,Success,0,Alert,Alert,Normal,Needs Attention
+EVT10276,2026-05-26,Churn_Model,East,Positive,Negative,0.554,254.8,0.151,0.302,0.057,1177.83,Success,0,Alert,Normal,Normal,Needs Attention
+EVT10098,2026-03-22,Demand_Model,North,Positive,Positive,0.895,261.4,0.136,0.166,0.136,1464.44,Success,1,Normal,Alert,Normal,Needs Attention
+EVT10353,2026-01-17,Churn_Model,North,Positive,Positive,0.927,122.6,0.14,0.024,0.063,1491.42,Success,1,Normal,Normal,Normal,Healthy
+EVT10123,2026-01-01,Churn_Model,West,Positive,Negative,0.866,259.9,0.1,0.124,0.012,1389.96,Success,0,Normal,Normal,Normal,Healthy
+EVT10184,2026-02-21,Churn_Model,East,Negative,Negative,0.63,150.3,0.046,0.344,0.045,859.61,Failure,1,Alert,Normal,Normal,Needs Attention
+EVT10203,2026-06-21,Demand_Model,South,Positive,Positive,0.865,255.7,0.155,0.296,0.138,621.5,Success,1,Alert,Alert,Normal,Needs Attention
+EVT10247,2026-04-23,Churn_Model,South,Negative,Positive,0.761,203.7,0.035,0.336,0.009,1238.43,Failure,0,Alert,Normal,Normal,Needs Attention
+EVT10308,2026-01-30,Fraud_Model,North,Positive,Negative,0.522,123.6,0.149,0.322,0.026,110.07,Success,0,Alert,Normal,Normal,Needs Attention
+EVT10423,2026-03-04,Churn_Model,South,Positive,Negative,0.751,110.9,0.17,0.291,0.023,905.0,Success,0,Alert,Normal,Normal,Needs Attention
+EVT10354,2026-04-14,Demand_Model,South,Positive,Positive,0.507,177.7,0.124,0.207,0.05,66.06,Success,1,Alert,Normal,Normal,Needs Attention
+EVT10303,2026-02-20,Churn_Model,East,Negative,Negative,0.71,195.3,0.119,0.015,0.047,649.83,Success,1,Normal,Normal,Normal,Healthy
+EVT10399,2026-01-08,Fraud_Model,West,Negative,Negative,0.535,158.6,0.076,0.158,0.068,138.31,Success,1,Normal,Normal,Normal,Healthy
+EVT10287,2026-01-21,Fraud_Model,East,Positive,Negative,0.546,239.1,0.077,0.25,0.047,1204.9,Failure,0,Alert,Normal,Normal,Needs Attention
+EVT10126,2026-04-13,Fraud_Model,East,Positive,Negative,0.613,261.2,0.105,0.345,0.055,489.38,Success,0,Alert,Normal,Normal,Needs Attention
+EVT10305,2026-01-27,Fraud_Model,South,Negative,Positive,0.659,120.7,0.139,0.116,0.171,890.45,Failure,0,Normal,Alert,Normal,Needs Attention
+EVT10224,2026-03-31,Demand_Model,West,Negative,Positive,0.922,237.8,0.094,0.098,0.003,324.46,Success,0,Normal,Normal,Normal,Healthy
+EVT10422,2026-04-30,Churn_Model,East,Positive,Positive,0.854,179.5,0.065,0.017,0.101,911.37,Success,1,Normal,Alert,Normal,Needs Attention
+EVT10220,2026-01-03,Churn_Model,West,Positive,Positive,0.725,237.7,0.163,0.235,0.152,935.05,Success,1,Alert,Alert,Normal,Needs Attention
+EVT10130,2026-03-31,Fraud_Model,East,Negative,Negative,0.887,283.5,0.115,0.241,0.188,1030.35,Failure,1,Alert,Alert,Normal,Needs Attention
+EVT10424,2026-01-19,Demand_Model,East,Positive,Positive,0.548,252.2,0.166,0.134,0.034,147.7,Failure,1,Normal,Normal,Normal,Healthy
+EVT10292,2026-05-15,Demand_Model,West,Negative,Negative,0.576,263.2,0.072,0.282,0.05,1051.55,Success,1,Alert,Normal,Normal,Needs Attention
+EVT10492,2026-06-28,Fraud_Model,South,Negative,Negative,0.841,105.1,0.149,0.177,0.127,519.41,Success,1,Normal,Alert,Normal,Needs Attention
+EVT10394,2026-06-19,Churn_Model,East,Positive,Positive,0.512,310.9,0.117,0.22,0.082,182.4,Success,1,Alert,Normal,Alert,Needs Attention
+EVT10479,2026-01-24,Churn_Model,North,Negative,Negative,0.871,369.2,0.047,0.183,0.037,1102.86,Success,1,Normal,Normal,Alert,Needs Attention
+EVT10358,2026-06-25,Churn_Model,East,Negative,Negative,0.471,80.9,0.092,0.243,0.001,234.98,Success,1,Alert,Normal,Normal,Needs Attention
+EVT10297,2026-04-25,Churn_Model,North,Negative,Negative,0.841,100.2,0.084,0.113,0.177,464.56,Success,1,Normal,Alert,Normal,Needs Attention
+EVT10370,2026-02-05,Demand_Model,South,Negative,Positive,0.873,257.2,0.095,0.228,0.064,506.77,Success,0,Alert,Normal,Normal,Needs Attention
+EVT10343,2026-06-23,Churn_Model,East,Positive,Positive,0.952,276.1,0.031,0.225,0.056,1437.94,Success,1,Alert,Normal,Normal,Needs Attention
+EVT10113,2026-05-31,Demand_Model,North,Negative,Negative,0.511,83.2,0.163,0.31,0.04,1345.77,Success,1,Alert,Normal,Normal,Needs Attention
+EVT10180,2026-04-06,Demand_Model,West,Positive,Positive,0.654,157.7,0.047,0.072,0.157,909.52,Success,1,Normal,Alert,Normal,Needs Attention
+EVT10419,2026-06-07,Fraud_Model,East,Negative,Positive,0.793,281.8,0.143,0.08,0.198,1196.5,Success,0,Normal,Alert,Normal,Needs Attention
+EVT10342,2026-04-14,Churn_Model,West,Negative,Negative,0.601,286.3,0.031,0.325,0.056,312.78,Success,1,Alert,Normal,Normal,Needs Attention
+EVT10333,2026-06-09,Fraud_Model,South,Negative,Negative,0.914,293.5,0.143,0.303,0.01,937.8,Success,1,Alert,Normal,Normal,Needs Attention
+EVT10486,2026-05-20,Churn_Model,South,Negative,Positive,0.54,98.0,0.136,0.262,0.168,59.88,Success,0,Alert,Alert,Normal,Needs Attention
+EVT10363,2026-02-19,Fraud_Model,East,Positive,Negative,0.469,123.5,0.143,0.243,0.026,1066.05,Success,0,Alert,Normal,Normal,Needs Attention
+EVT10234,2026-04-14,Demand_Model,South,Positive,Negative,0.814,327.4,0.179,0.141,0.066,148.76,Success,0,Normal,Normal,Alert,Needs Attention
+EVT10472,2026-05-18,Fraud_Model,West,Positive,Negative,0.858,110.9,0.074,0.052,0.05,270.23,Success,0,Normal,Normal,Normal,Healthy
+EVT10165,2026-01-27,Demand_Model,North,Positive,Positive,0.648,243.0,0.157,0.053,0.105,481.17,Failure,1,Normal,Alert,Normal,Needs Attention
+EVT10137,2026-04-06,Fraud_Model,East,Positive,Positive,0.705,255.7,0.164,0.018,0.071,551.16,Success,1,Normal,Normal,Normal,Healthy
+EVT10198,2026-05-09,Fraud_Model,South,Negative,Positive,0.657,179.0,0.049,0.025,0.105,333.04,Success,0,Normal,Alert,Normal,Needs Attention
+EVT10259,2026-05-28,Demand_Model,East,Positive,Negative,0.708,74.6,0.154,0.29,0.111,917.11,Success,0,Alert,Alert,Normal,Needs Attention
+EVT10233,2026-03-23,Churn_Model,North,Positive,Positive,0.789,191.8,0.116,0.252,0.124,780.14,Success,1,Alert,Alert,Normal,Needs Attention
+EVT10116,2026-04-09,Fraud_Model,North,Negative,Positive,0.728,132.4,0.113,0.208,0.142,1495.02,Failure,0,Alert,Alert,Normal,Needs Attention
+EVT10121,2026-06-24,Demand_Model,North,Positive,Negative,0.645,135.5,0.178,0.093,0.038,818.09,Success,0,Normal,Normal,Normal,Healthy
+EVT10352,2026-05-10,Churn_Model,West,Positive,Negative,0.693,154.1,0.03,0.079,0.156,1164.93,Success,0,Normal,Alert,Normal,Needs Attention
+EVT10225,2026-05-27,Fraud_Model,North,Positive,Positive,0.537,101.9,0.097,0.216,0.136,716.03,Success,1,Alert,Alert,Normal,Needs Attention
+EVT10406,2026-04-19,Fraud_Model,South,Negative,Positive,0.66,175.1,0.052,0.152,0.024,449.53,Success,0,Normal,Normal,Normal,Healthy
+EVT10437,2026-01-01,Demand_Model,North,Negative,Positive,0.635,172.4,0.113,0.22,0.005,475.63,Success,0,Alert,Normal,Normal,Needs Attention
+EVT10128,2026-05-17,Churn_Model,South,Negative,Positive,0.91,193.9,0.045,0.266,0.059,960.77,Success,0,Alert,Normal,Normal,Needs Attention
+EVT10286,2026-05-22,Demand_Model,East,Positive,Negative,0.593,127.8,0.168,0.286,0.189,1476.85,Success,0,Alert,Alert,Normal,Needs Attention
+EVT10415,2026-01-13,Churn_Model,South,Positive,Negative,0.621,173.4,0.143,0.066,0.131,420.83,Failure,0,Normal,Alert,Normal,Needs Attention
+EVT10108,2026-03-13,Demand_Model,South,Negative,Positive,0.679,141.0,0.151,0.111,0.198,996.78,Success,0,Normal,Alert,Normal,Needs Attention
+EVT10374,2026-01-08,Demand_Model,East,Negative,Negative,0.898,113.3,0.083,0.212,0.039,419.08,Failure,1,Alert,Normal,Normal,Needs Attention
+EVT10371,2026-06-22,Fraud_Model,South,Negative,Negative,0.642,217.7,0.13,0.037,0.052,375.67,Success,1,Normal,Normal,Normal,Healthy
+EVT10134,2026-03-04,Fraud_Model,West,Positive,Negative,0.533,160.8,0.057,0.121,0.05,1195.52,Success,0,Normal,Normal,Normal,Healthy
+EVT10400,2026-02-22,Fraud_Model,East,Negative,Negative,0.474,358.4,0.043,0.145,0.161,94.85,Success,1,Normal,Alert,Alert,Needs Attention
+EVT10045,2026-05-12,Demand_Model,North,Positive,Negative,0.61,175.9,0.132,0.153,0.045,1346.89,Success,0,Normal,Normal,Normal,Healthy
+EVT10465,2026-04-11,Fraud_Model,North,Positive,Positive,0.908,152.7,0.086,0.17,0.029,949.54,Success,1,Normal,Normal,Normal,Healthy
+EVT10066,2026-05-14,Churn_Model,North,Positive,Positive,0.889,410.5,0.143,0.291,0.04,740.87,Failure,1,Alert,Normal,Alert,Needs Attention
+EVT10284,2026-03-09,Churn_Model,North,Negative,Positive,0.49,119.7,0.018,0.042,0.132,704.77,Success,0,Normal,Alert,Normal,Needs Attention
+EVT10086,2026-06-06,Churn_Model,North,Negative,Negative,0.555,166.8,0.055,0.317,0.127,763.48,Success,1,Alert,Alert,Normal,Needs Attention
+EVT10243,2026-05-24,Churn_Model,North,Negative,Positive,0.571,158.5,0.153,0.209,0.13,651.93,Success,0,Alert,Alert,Normal,Needs Attention
+EVT10187,2026-05-10,Churn_Model,West,Negative,Negative,0.969,198.7,0.151,0.346,0.15,940.88,Success,1,Alert,Alert,Normal,Needs Attention
+EVT10387,2026-05-05,Churn_Model,East,Negative,Positive,0.487,168.4,0.149,0.282,0.043,138.35,Success,0,Alert,Normal,Normal,Needs Attention
+EVT10160,2026-03-16,Fraud_Model,East,Positive,Negative,0.867,259.2,0.139,0.247,0.044,311.75,Success,0,Alert,Normal,Normal,Needs Attention
+EVT10013,2026-04-10,Fraud_Model,West,Negative,Negative,0.459,235.9,0.125,0.213,0.15,1264.42,Success,1,Alert,Alert,Normal,Needs Attention
+EVT10036,2026-02-24,Churn_Model,West,Negative,Positive,0.801,189.4,0.091,0.278,0.141,467.96,Success,0,Alert,Alert,Normal,Needs Attention
+EVT10029,2026-02-18,Demand_Model,South,Positive,Positive,0.622,110.3,0.091,0.08,0.118,1229.48,Success,1,Normal,Alert,Normal,Needs Attention
+EVT10171,2026-05-17,Churn_Model,West,Negative,Positive,0.488,313.2,0.1,0.175,0.051,361.63,Success,0,Normal,Normal,Alert,Needs Attention
+EVT10143,2026-02-05,Fraud_Model,East,Negative,Negative,0.794,130.3,0.133,0.343,0.146,773.99,Success,1,Alert,Alert,Normal,Needs Attention
+EVT10417,2026-05-04,Demand_Model,South,Negative,Positive,0.59,376.7,0.03,0.013,0.016,288.7,Success,0,Normal,Normal,Alert,Needs Attention
+EVT10425,2026-04-02,Churn_Model,North,Negative,Positive,0.479,136.9,0.012,0.13,0.07,1255.73,Success,0,Normal,Normal,Normal,Healthy
+EVT10222,2026-06-13,Demand_Model,West,Negative,Positive,0.601,396.0,0.178,0.143,0.055,218.87,Success,0,Normal,Normal,Alert,Needs Attention
+EVT10096,2026-03-04,Fraud_Model,North,Positive,Negative,0.666,177.7,0.066,0.015,0.068,995.26,Failure,0,Normal,Normal,Normal,Healthy
+EVT10052,2026-05-10,Fraud_Model,East,Positive,Positive,0.746,366.7,0.016,0.17,0.171,1483.81,Failure,1,Normal,Alert,Alert,Needs Attention
+EVT10241,2026-04-09,Fraud_Model,East,Negative,Negative,0.462,294.0,0.176,0.264,0.009,1306.12,Success,1,Alert,Normal,Normal,Needs Attention
+EVT10376,2026-05-22,Fraud_Model,West,Positive,Negative,0.679,233.7,0.092,0.033,0.125,112.81,Success,0,Normal,Alert,Normal,Needs Attention
+EVT10382,2026-02-01,Churn_Model,North,Positive,Positive,0.977,219.3,0.159,0.213,0.152,794.1,Success,1,Alert,Alert,Normal,Needs Attention
+EVT10179,2026-06-09,Churn_Model,West,Negative,Negative,0.478,243.9,0.099,0.173,0.179,1033.67,Success,1,Normal,Alert,Normal,Needs Attention
+EVT10042,2026-03-14,Churn_Model,North,Negative,Negative,0.621,178.8,0.042,0.192,0.153,264.92,Success,1,Normal,Alert,Normal,Needs Attention
+EVT10440,2026-05-06,Churn_Model,West,Positive,Negative,0.851,192.3,0.117,0.275,0.026,858.24,Success,0,Alert,Normal,Normal,Needs Attention
+EVT10391,2026-03-27,Fraud_Model,West,Positive,Negative,0.624,211.1,0.169,0.084,0.0935,652.5,Success,0,Normal,Normal,Normal,Healthy
+EVT10207,2026-05-03,Fraud_Model,South,Negative,Positive,0.589,137.2,0.074,0.045,0.179,662.85,Success,0,Normal,Alert,Normal,Needs Attention
+EVT10283,2026-06-10,Churn_Model,East,Positive,Negative,0.542,241.6,0.089,0.237,0.179,708.7,Success,0,Alert,Alert,Normal,Needs Attention
+EVT10255,2026-04-09,Demand_Model,South,Negative,Positive,0.965,75.0,0.153,0.291,0.108,67.89,Failure,0,Alert,Alert,Normal,Needs Attention
+EVT10416,2026-04-24,Churn_Model,North,Negative,Negative,0.925,251.5,0.135,0.049,0.107,524.76,Success,1,Normal,Alert,Normal,Needs Attention
+EVT10005,2026-04-17,Fraud_Model,South,Positive,Negative,0.845,218.5,0.106,0.02,0.115,268.5,Success,0,Normal,Alert,Normal,Needs Attention
+EVT10257,2026-02-17,Demand_Model,East,Positive,Positive,0.81,402.1,0.083,0.105,0.043,1126.33,Success,1,Normal,Normal,Alert,Needs Attention
+EVT10453,2026-06-28,Demand_Model,West,Positive,Positive,0.6,140.1,0.119,0.128,0.012,249.56,Failure,1,Normal,Normal,Normal,Healthy
+EVT10227,2026-04-06,Fraud_Model,East,Positive,Positive,0.76,203.7,0.118,0.273,0.084,1363.03,Success,1,Alert,Normal,Normal,Needs Attention
+EVT10432,2026-05-17,Fraud_Model,West,Negative,Positive,0.82,284.5,0.042,0.345,0.089,572.54,Success,0,Alert,Normal,Normal,Needs Attention
+EVT10214,2026-05-19,Churn_Model,East,Negative,Negative,0.514,146.9,0.147,0.24,0.072,545.68,Success,1,Alert,Normal,Normal,Needs Attention
+EVT10426,2026-02-27,Demand_Model,East,Positive,Negative,0.623,123.4,0.087,0.113,0.152,307.12,Success,0,Normal,Alert,Normal,Needs Attention
+EVT10172,2026-03-03,Demand_Model,West,Negative,Negative,0.796,215.4,0.077,0.015,0.156,110.85,Success,1,Normal,Alert,Normal,Needs Attention
+EVT10099,2026-05-16,Fraud_Model,South,Negative,Negative,0.732,237.8,0.048,0.15,0.109,737.54,Success,1,Normal,Alert,Normal,Needs Attention
+EVT10293,2026-05-25,Demand_Model,North,Positive,Negative,0.569,192.6,0.133,0.239,0.109,1106.74,Success,0,Alert,Alert,Normal,Needs Attention
+EVT10216,2026-04-07,Fraud_Model,West,Negative,Negative,0.635,148.3,0.052,0.015,0.113,68.72,Success,1,Normal,Alert,Normal,Needs Attention
+EVT10062,2026-02-19,Demand_Model,South,Positive,Negative,0.743,249.0,0.025,0.277,0.038,145.43,Success,0,Alert,Normal,Normal,Needs Attention
+EVT10048,2026-01-14,Churn_Model,East,Negative,Positive,0.79,165.5,0.134,0.214,0.155,852.01,Success,0,Alert,Alert,Normal,Needs Attention
+EVT10033,2026-06-24,Fraud_Model,North,Positive,Positive,0.499,247.4,0.095,0.321,0.123,511.48,Success,1,Alert,Alert,Normal,Needs Attention
+EVT10268,2026-06-13,Demand_Model,North,Negative,Positive,0.6,108.7,0.111,0.061,0.194,87.42,Success,0,Normal,Alert,Normal,Needs Attention
+EVT10328,2026-04-03,Fraud_Model,East,Positive,Negative,0.917,84.6,0.071,0.22,0.159,1444.34,Success,0,Alert,Alert,Normal,Needs Attention
+EVT10201,2026-05-10,Demand_Model,East,Positive,Negative,0.461,217.5,0.173,0.139,0.115,1482.24,Success,0,Normal,Alert,Normal,Needs Attention
+EVT10451,2026-06-03,Fraud_Model,North,Positive,Negative,0.851,264.2,0.026,0.134,0.12,513.63,Success,0,Normal,Alert,Normal,Needs Attention
+EVT10028,2026-03-30,Demand_Model,North,Positive,Positive,0.777,114.2,0.056,0.155,0.157,233.09,Success,1,Normal,Alert,Normal,Needs Attention
+EVT10393,2026-06-29,Demand_Model,North,Negative,Positive,0.706,322.3,0.177,0.215,0.069,401.74,Success,0,Alert,Normal,Alert,Needs Attention
+EVT10231,2026-05-08,Demand_Model,East,Negative,Positive,0.664,176.1,0.086,0.114,0.05,339.15,Success,0,Normal,Normal,Normal,Healthy
+EVT10261,2026-02-23,Fraud_Model,East,Positive,Negative,0.576,429.5,0.14,0.274,0.181,1289.47,Success,0,Alert,Alert,Alert,Needs Attention
+EVT10289,2026-05-28,Fraud_Model,East,Negative,Positive,0.784,239.7,0.1,0.291,0.154,1036.81,Success,0,Alert,Alert,Normal,Needs Attention
+EVT10163,2026-05-09,Demand_Model,South,Positive,Negative,0.772,196.0,0.088,0.307,0.021,211.25,Success,0,Alert,Normal,Normal,Needs Attention
+EVT10429,2026-03-03,Demand_Model,West,Positive,Negative,0.741,185.0,0.103,0.315,0.197,1086.6,Success,0,Alert,Alert,Normal,Needs Attention
+EVT10139,2026-05-31,Demand_Model,North,Negative,Negative,0.546,202.8,0.119,0.247,0.059,726.76,Success,1,Alert,Normal,Normal,Needs Attention
+EVT10063,2026-04-14,Demand_Model,North,Negative,Positive,0.964,213.5,0.017,0.33,0.184,1342.41,Success,0,Alert,Alert,Normal,Needs Attention
+EVT10136,2026-02-21,Churn_Model,East,Positive,Negative,0.919,219.6,0.1,0.206,0.171,890.61,Success,0,Alert,Alert,Normal,Needs Attention
+EVT10129,2026-01-15,Demand_Model,East,Negative,Negative,0.813,104.1,0.133,0.306,0.023,1399.43,Success,1,Alert,Normal,Normal,Needs Attention
+EVT10481,2026-01-02,Churn_Model,South,Positive,Positive,0.524,74.4,0.115,0.184,0.082,263.48,Success,1,Normal,Normal,Normal,Healthy
+EVT10009,2026-05-02,Fraud_Model,West,Positive,Negative,0.588,204.3,0.17,0.32,0.051,1187.92,Success,0,Alert,Normal,Normal,Needs Attention
+EVT10327,2026-01-24,Demand_Model,South,Negative,Positive,0.519,130.0,0.092,0.136,0.088,1046.58,Success,0,Normal,Normal,Normal,Healthy
+EVT10468,2026-03-10,Fraud_Model,West,Positive,Positive,0.456,159.7,0.17,0.244,0.189,609.61,Success,1,Alert,Alert,Normal,Needs Attention
+EVT10065,2026-01-02,Demand_Model,East,Positive,Positive,0.944,173.5,0.15,0.255,0.122,514.04,Success,1,Alert,Alert,Normal,Needs Attention
+EVT10301,2026-02-07,Fraud_Model,North,Positive,Positive,0.641,286.7,0.063,0.299,0.139,530.16,Success,1,Alert,Alert,Normal,Needs Attention
+EVT10015,2026-06-01,Fraud_Model,North,Positive,Negative,0.899,132.3,0.017,0.137,0.12,892.73,Success,0,Normal,Alert,Normal,Needs Attention
+EVT10157,2026-02-13,Fraud_Model,South,Positive,Negative,0.721,232.9,0.174,0.253,0.078,1109.21,Failure,0,Alert,Normal,Normal,Needs Attention
+EVT10041,2026-01-21,Churn_Model,West,Negative,Negative,0.924,161.0,0.156,0.18,0.135,853.82,Success,1,Normal,Alert,Normal,Needs Attention
+EVT10380,2026-04-08,Fraud_Model,North,Negative,Negative,0.873,119.0,0.172,0.094,0.133,647.98,Failure,1,Normal,Alert,Normal,Needs Attention
+EVT10464,2026-02-02,Demand_Model,West,Negative,Positive,0.733,138.1,0.03,0.188,0.076,1400.96,Success,0,Normal,Normal,Normal,Healthy
+EVT10407,2026-04-26,Fraud_Model,West,Positive,Negative,0.538,438.53999999999985,0.07,0.067,0.022,767.06,Failure,0,Normal,Normal,Alert,Needs Attention
+EVT10217,2026-05-04,Fraud_Model,East,Negative,Negative,0.656,226.4,0.078,0.08,0.037,378.7,Failure,1,Normal,Normal,Normal,Healthy
+EVT10280,2026-02-23,Fraud_Model,South,Negative,Positive,0.785,140.4,0.07,0.185,0.156,704.23,Success,0,Normal,Alert,Normal,Needs Attention
+EVT10439,2026-04-06,Fraud_Model,North,Positive,Negative,0.859,145.2,0.136,0.173,0.056,532.53,Success,0,Normal,Normal,Normal,Healthy
+EVT10435,2026-02-27,Demand_Model,South,Positive,Negative,0.714,193.8,0.098,0.292,0.1,1302.05,Success,0,Alert,Alert,Normal,Needs Attention
+EVT10338,2026-01-25,Fraud_Model,North,Negative,Negative,0.806,209.3,0.037,0.293,0.166,1110.77,Success,1,Alert,Alert,Normal,Needs Attention
+EVT10237,2026-06-27,Churn_Model,South,Positive,Negative,0.526,127.4,0.081,0.214,0.045,725.87,Success,0,Alert,Normal,Normal,Needs Attention
+EVT10208,2026-05-25,Churn_Model,North,Positive,Negative,0.875,374.2,0.104,0.027,0.159,1493.67,Success,0,Normal,Alert,Alert,Needs Attention
+EVT10213,2026-04-08,Demand_Model,North,Positive,Negative,0.484,185.5,0.097,0.129,0.167,946.0,Success,0,Normal,Alert,Normal,Needs Attention
+EVT10296,2026-06-25,Churn_Model,South,Positive,Positive,0.908,187.3,0.012,0.204,0.043,182.15,Success,1,Alert,Normal,Normal,Needs Attention
+EVT10462,2026-02-08,Demand_Model,South,Positive,Negative,0.653,159.9,0.01,0.33,0.001,792.71,Success,0,Alert,Normal,Normal,Needs Attention
+EVT10252,2026-02-06,Demand_Model,North,Positive,Negative,0.935,152.7,0.106,0.264,0.089,837.35,Success,0,Alert,Normal,Normal,Needs Attention
+EVT10493,2026-06-20,Churn_Model,North,Positive,Negative,0.506,230.5,0.097,0.148,0.161,1159.53,Failure,0,Normal,Alert,Normal,Needs Attention
+EVT10463,2026-04-10,Demand_Model,West,Negative,Positive,0.741,103.1,0.04,0.015,0.0,1036.7,Success,0,Normal,Normal,Normal,Healthy
+EVT10304,2026-01-08,Churn_Model,South,Positive,Positive,0.546,247.8,0.081,0.037,0.042,996.81,Success,1,Normal,Normal,Normal,Healthy
+EVT10351,2026-06-04,Churn_Model,South,Positive,Negative,0.93,134.2,0.037,0.151,0.189,967.56,Success,0,Normal,Alert,Normal,Needs Attention
+EVT10270,2026-04-14,Demand_Model,North,Positive,Positive,0.45,112.5,0.118,0.168,0.063,804.65,Success,1,Normal,Normal,Normal,Healthy
+EVT10202,2026-02-22,Demand_Model,East,Negative,Positive,0.848,245.3,0.14,0.293,0.028,522.24,Failure,0,Alert,Normal,Normal,Needs Attention
+EVT10162,2026-04-02,Demand_Model,North,Negative,Positive,0.798,162.0,0.041,0.168,0.116,811.62,Failure,0,Normal,Alert,Normal,Needs Attention
+EVT10044,2026-01-18,Demand_Model,North,Positive,Positive,0.653,141.2,0.081,0.277,0.129,1232.15,Success,1,Alert,Alert,Normal,Needs Attention
+EVT10218,2026-03-11,Fraud_Model,West,Negative,Positive,0.637,307.2,0.162,0.253,0.028,871.99,Success,0,Alert,Normal,Alert,Needs Attention
+EVT10402,2026-04-18,Churn_Model,South,Negative,Positive,0.773,226.3,0.169,0.313,0.195,574.39,Success,0,Alert,Alert,Normal,Needs Attention
+EVT10191,2026-04-23,Fraud_Model,East,Negative,Negative,0.671,113.7,0.077,0.162,0.159,778.61,Success,1,Normal,Alert,Normal,Needs Attention
+EVT10310,2026-01-28,Fraud_Model,East,Positive,Negative,0.877,324.8,0.056,0.115,0.124,847.3,Success,0,Normal,Alert,Alert,Needs Attention
+EVT10260,2026-06-01,Fraud_Model,North,Positive,Negative,0.723,108.4,0.078,0.031,0.006,608.4,Failure,0,Normal,Normal,Normal,Healthy
+EVT10106,2026-01-28,Demand_Model,North,Positive,Positive,0.55,364.9,0.125,0.191,0.17,628.79,Success,1,Normal,Alert,Alert,Needs Attention
+EVT10054,2026-04-02,Demand_Model,South,Negative,Positive,0.745,122.7,0.168,0.081,0.199,615.35,Success,0,Normal,Alert,Normal,Needs Attention
+EVT10390,2026-02-27,Demand_Model,North,Negative,Positive,0.934,211.1,0.063,0.078,0.182,512.62,Success,0,Normal,Alert,Normal,Needs Attention
+EVT10002,2026-06-29,Demand_Model,West,Positive,Positive,0.846,109.5,0.168,0.288,0.179,234.85,Success,1,Alert,Alert,Normal,Needs Attention
+EVT10491,2026-06-10,Fraud_Model,South,Positive,Positive,0.725,143.0,0.156,0.3,0.099,1202.83,Success,1,Alert,Normal,Normal,Needs Attention
+EVT10487,2026-06-27,Churn_Model,South,Negative,Negative,0.548,141.1,0.066,0.105,0.097,808.94,Success,1,Normal,Normal,Normal,Healthy
+EVT10050,2026-03-31,Churn_Model,East,Negative,Positive,0.754,151.9,0.145,0.211,0.125,606.86,Success,0,Alert,Alert,Normal,Needs Attention
+EVT10420,2026-05-27,Fraud_Model,West,Negative,Negative,0.569,205.7,0.112,0.224,0.006,607.86,Success,1,Alert,Normal,Normal,Needs Attention
+EVT10081,2026-02-22,Churn_Model,North,Positive,Positive,0.966,385.2,0.159,0.225,0.084,184.13,Success,1,Alert,Normal,Alert,Needs Attention
+EVT10206,2026-03-09,Demand_Model,West,Positive,Negative,0.5,393.5,0.143,0.042,0.015,730.8,Failure,0,Normal,Normal,Alert,Needs Attention
+EVT10035,2026-04-18,Demand_Model,South,Positive,Negative,0.509,186.4,0.157,0.022,0.103,985.11,Success,0,Normal,Alert,Normal,Needs Attention
+EVT10431,2026-05-07,Churn_Model,East,Positive,Positive,0.508,296.5,0.104,0.036,0.087,71.18,Success,1,Normal,Normal,Normal,Healthy
+EVT10264,2026-06-01,Demand_Model,North,Negative,Negative,0.516,187.8,0.103,0.344,0.104,442.4,Success,1,Alert,Alert,Normal,Needs Attention
+EVT10428,2026-04-27,Churn_Model,East,Positive,Negative,0.595,237.3,0.028,0.068,0.128,1170.37,Success,0,Normal,Alert,Normal,Needs Attention
+EVT10367,2026-03-01,Fraud_Model,South,Positive,Negative,0.985,150.2,0.153,0.31,0.082,403.51,Success,0,Alert,Normal,Normal,Needs Attention
+EVT10092,2026-01-09,Churn_Model,South,Positive,Negative,0.737,141.4,0.075,0.311,0.12,459.28,Success,0,Alert,Alert,Normal,Needs Attention
+EVT10340,2026-02-27,Churn_Model,South,Negative,Negative,0.887,202.4,0.027,0.304,0.061,806.73,Success,1,Alert,Normal,Normal,Needs Attention
+EVT10478,2026-01-16,Churn_Model,South,Positive,Positive,0.797,168.6,0.17,0.288,0.199,966.43,Success,1,Alert,Alert,Normal,Needs Attention
+EVT10053,2026-03-25,Demand_Model,East,Positive,Positive,0.772,113.7,0.077,0.02,0.186,377.31,Failure,1,Normal,Alert,Normal,Needs Attention
+EVT10346,2026-02-01,Churn_Model,South,Negative,Negative,0.896,367.0,0.015,0.341,0.043,716.48,Success,1,Alert,Normal,Alert,Needs Attention
+EVT10265,2026-04-26,Fraud_Model,South,Negative,Negative,0.771,151.9,0.045,0.277,0.142,331.54,Success,1,Alert,Alert,Normal,Needs Attention
+EVT10242,2026-01-07,Demand_Model,East,Positive,Negative,0.533,265.4,0.015,0.2,0.139,288.71,Success,0,Alert,Alert,Normal,Needs Attention
+EVT10014,2026-04-14,Demand_Model,East,Positive,Positive,0.582,245.1,0.03,0.212,0.125,941.0,Success,1,Alert,Alert,Normal,Needs Attention
+EVT10316,2026-02-04,Fraud_Model,South,Negative,Negative,0.901,137.5,0.14,0.147,0.086,945.42,Success,1,Normal,Normal,Normal,Healthy
+EVT10089,2026-03-06,Fraud_Model,East,Negative,Negative,0.732,318.7,0.156,0.129,0.038,377.75,Success,1,Normal,Normal,Alert,Needs Attention
+EVT10388,2026-05-30,Churn_Model,East,Negative,Positive,0.968,298.0,0.095,0.311,0.042,1056.33,Success,0,Alert,Normal,Normal,Needs Attention
+EVT10274,2026-06-02,Demand_Model,North,Negative,Positive,0.659,286.8,0.088,0.29,0.076,214.63,Success,0,Alert,Normal,Normal,Needs Attention
+EVT10167,2026-04-26,Demand_Model,East,Positive,Positive,0.783,136.8,0.163,0.191,0.082,1029.65,Success,1,Normal,Normal,Normal,Healthy
+EVT10329,2026-02-15,Demand_Model,East,Positive,Positive,0.581,303.9,0.171,0.225,0.145,1108.85,Success,1,Alert,Alert,Alert,Needs Attention
+EVT10497,2026-03-06,Churn_Model,North,Negative,Negative,0.713,128.3,0.103,0.2,0.033,87.08,Failure,1,Alert,Normal,Normal,Needs Attention
+EVT10135,2026-04-06,Churn_Model,West,Positive,Negative,0.577,236.7,0.177,0.196,0.143,511.07,Success,0,Normal,Alert,Normal,Needs Attention
+EVT10307,2026-01-21,Fraud_Model,South,Positive,Positive,0.584,210.8,0.162,0.016,0.088,1483.38,Success,1,Normal,Normal,Normal,Healthy
+EVT10485,2026-06-01,Fraud_Model,North,Positive,Positive,0.466,216.2,0.095,0.327,0.161,627.51,Success,1,Alert,Alert,Normal,Needs Attention
+EVT10320,2026-06-07,Churn_Model,North,Positive,Negative,0.473,160.1,0.08,0.259,0.177,531.38,Success,0,Alert,Alert,Normal,Needs Attention
+EVT10244,2026-03-31,Churn_Model,South,Positive,Positive,0.967,151.0,0.138,0.055,0.046,70.78,Success,1,Normal,Normal,Normal,Healthy
+EVT10055,2026-04-21,Fraud_Model,East,Positive,Positive,0.69,169.7,0.031,0.106,0.159,746.07,Success,1,Normal,Alert,Normal,Needs Attention
+EVT10364,2026-06-02,Demand_Model,East,Negative,Negative,0.725,202.0,0.031,0.319,0.103,904.08,Success,1,Alert,Alert,Normal,Needs Attention
+EVT10051,2026-02-22,Demand_Model,South,Positive,Positive,0.655,260.2,0.138,0.149,0.056,1016.09,Failure,1,Normal,Normal,Normal,Healthy
+EVT10461,2026-03-26,Demand_Model,South,Negative,Positive,0.821,209.0,0.052,0.27,0.153,108.42,Success,0,Alert,Alert,Normal,Needs Attention
+EVT10175,2026-06-21,Demand_Model,West,Positive,Positive,0.817,151.7,0.118,0.015,0.072,218.89,Success,1,Normal,Normal,Normal,Healthy
+EVT10446,2026-01-16,Fraud_Model,East,Positive,Negative,0.924,132.6,0.167,0.16,0.098,77.47,Success,0,Normal,Normal,Normal,Healthy
+EVT10190,2026-04-11,Demand_Model,East,Positive,Negative,0.542,120.8,0.129,0.025,0.085,731.38,Success,0,Normal,Normal,Normal,Healthy
+EVT10188,2026-05-11,Fraud_Model,West,Positive,Negative,0.793,233.8,0.134,0.089,0.112,809.31,Success,0,Normal,Alert,Normal,Needs Attention
+EVT10170,2026-06-04,Churn_Model,West,Negative,Negative,0.812,364.4,0.179,0.148,0.017,1062.39,Success,1,Normal,Normal,Alert,Needs Attention
+EVT10059,2026-02-04,Churn_Model,West,Positive,Positive,0.797,124.1,0.126,0.324,0.093,1466.35,Success,1,Alert,Normal,Normal,Needs Attention
+EVT10049,2026-01-09,Demand_Model,East,Positive,Positive,0.779,140.0,0.12,0.078,0.025,1227.77,Success,1,Normal,Normal,Normal,Healthy
+EVT10345,2026-04-24,Churn_Model,North,Positive,Negative,0.872,305.8,0.069,0.229,0.185,995.8,Success,0,Alert,Alert,Alert,Needs Attention
+EVT10236,2026-01-11,Churn_Model,North,Negative,Negative,0.84,173.2,0.108,0.073,0.169,1406.3,Failure,1,Normal,Alert,Normal,Needs Attention
+EVT10253,2026-06-09,Fraud_Model,North,Positive,Negative,0.898,168.1,0.083,0.087,0.15,592.02,Failure,0,Normal,Alert,Normal,Needs Attention
+EVT10022,2026-02-07,Churn_Model,East,Negative,Negative,0.958,111.2,0.159,0.145,0.059,691.43,Success,1,Normal,Normal,Normal,Healthy
+EVT10314,2026-05-27,Churn_Model,North,Negative,Positive,0.784,310.5,0.079,0.329,0.038,295.78,Success,0,Alert,Normal,Alert,Needs Attention
+EVT10460,2026-06-25,Fraud_Model,West,Positive,Positive,0.782,277.4,0.099,0.201,0.189,1372.0,Success,1,Alert,Alert,Normal,Needs Attention
+EVT10161,2026-05-08,Demand_Model,South,Negative,Positive,0.593,153.4,0.103,0.266,0.003,430.58,Success,0,Alert,Normal,Normal,Needs Attention
+EVT10277,2026-05-08,Churn_Model,South,Positive,Positive,0.564,176.0,0.018,0.276,0.018,1242.39,Success,1,Alert,Normal,Normal,Needs Attention
+EVT10444,2026-04-27,Churn_Model,South,Positive,Positive,0.501,227.7,0.111,0.069,0.051,1334.58,Success,1,Normal,Normal,Normal,Healthy
+EVT10192,2026-03-22,Fraud_Model,North,Negative,Negative,0.678,147.0,0.172,0.034,0.006,341.12,Failure,1,Normal,Normal,Normal,Healthy
+EVT10386,2026-03-04,Fraud_Model,West,Positive,Negative,0.591,118.2,0.064,0.138,0.111,1372.34,Success,0,Normal,Alert,Normal,Needs Attention
+EVT10294,2026-05-08,Churn_Model,East,Negative,Positive,0.544,135.2,0.044,0.012,0.055,118.11,Success,0,Normal,Normal,Normal,Healthy
+EVT10414,2026-05-24,Fraud_Model,North,Positive,Negative,0.813,134.5,0.177,0.345,0.009,478.83,Success,0,Alert,Normal,Normal,Needs Attention
+EVT10344,2026-01-24,Demand_Model,South,Negative,Positive,0.587,187.1,0.155,0.028,0.007,1340.7,Success,0,Normal,Normal,Normal,Healthy
+EVT10258,2026-05-11,Demand_Model,West,Negative,Positive,0.516,150.8,0.164,0.233,0.058,404.03,Success,0,Alert,Normal,Normal,Needs Attention
+EVT10309,2026-04-07,Fraud_Model,North,Negative,Positive,0.676,193.7,0.053,0.25,0.076,1453.31,Success,0,Alert,Normal,Normal,Needs Attention
+EVT10150,2026-06-19,Demand_Model,North,Positive,Positive,0.815,115.9,0.049,0.274,0.023,50.27,Success,1,Alert,Normal,Normal,Needs Attention
+EVT10131,2026-02-11,Churn_Model,East,Positive,Positive,0.864,438.4,0.162,0.15,0.157,495.5,Success,1,Normal,Alert,Alert,Needs Attention
+EVT10152,2026-03-03,Demand_Model,East,Positive,Positive,0.691,165.8,0.081,0.301,0.19,943.82,Failure,1,Alert,Alert,Normal,Needs Attention
+EVT10360,2026-06-19,Demand_Model,North,Positive,Negative,0.806,179.1,0.076,0.068,0.107,563.85,Success,0,Normal,Alert,Normal,Needs Attention
+EVT10100,2026-06-12,Fraud_Model,West,Negative,Negative,0.517,238.9,0.119,0.255,0.069,146.71,Success,1,Alert,Normal,Normal,Needs Attention
+EVT10373,2026-03-06,Fraud_Model,North,Positive,Positive,0.747,181.9,0.102,0.042,0.018,1249.87,Failure,1,Normal,Normal,Normal,Healthy
+EVT10088,2026-02-14,Churn_Model,North,Negative,Positive,0.783,226.0,0.032,0.292,0.131,387.18,Success,0,Alert,Alert,Normal,Needs Attention
+EVT10459,2026-05-24,Demand_Model,East,Positive,Positive,0.89,253.8,0.109,0.053,0.178,567.03,Success,1,Normal,Alert,Normal,Needs Attention
+EVT10331,2026-04-09,Demand_Model,West,Positive,Negative,0.888,175.1,0.032,0.161,0.068,964.54,Failure,0,Normal,Normal,Normal,Healthy
+EVT10215,2026-05-24,Demand_Model,West,Positive,Positive,0.573,240.7,0.053,0.268,0.183,1317.12,Success,1,Alert,Alert,Normal,Needs Attention
+EVT10467,2026-01-10,Fraud_Model,South,Positive,Positive,0.9,183.8,0.046,0.2,0.093,171.4,Success,1,Alert,Normal,Normal,Needs Attention
+EVT10122,2026-05-11,Churn_Model,East,Negative,Negative,0.939,249.6,0.051,0.101,0.001,1111.96,Success,1,Normal,Normal,Normal,Healthy
+EVT10021,2026-06-07,Demand_Model,South,Positive,Negative,0.774,200.2,0.053,0.278,0.04,235.27,Success,0,Alert,Normal,Normal,Needs Attention
+EVT10189,2026-04-23,Demand_Model,South,Negative,Positive,0.858,157.6,0.07,0.33,0.049,512.73,Success,0,Alert,Normal,Normal,Needs Attention
+EVT10072,2026-02-13,Demand_Model,West,Positive,Positive,0.663,318.4,0.153,0.198,0.171,578.77,Failure,1,Normal,Alert,Alert,Needs Attention
+EVT10107,2026-05-15,Fraud_Model,North,Negative,Positive,0.946,163.9,0.103,0.278,0.018,917.96,Success,0,Alert,Normal,Normal,Needs Attention
+EVT10271,2026-03-25,Demand_Model,East,Negative,Positive,0.46,146.9,0.072,0.1,0.167,1492.14,Success,0,Normal,Alert,Normal,Needs Attention
+EVT10349,2026-05-31,Fraud_Model,South,Positive,Positive,0.693,97.0,0.046,0.264,0.172,874.4,Success,1,Alert,Alert,Normal,Needs Attention
+EVT10436,2026-05-02,Demand_Model,South,Negative,Positive,0.531,329.3,0.023,0.25,0.129,497.76,Success,0,Alert,Alert,Alert,Needs Attention
+EVT10103,2026-05-03,Fraud_Model,West,Positive,Negative,0.55,313.2,0.123,0.156,0.056,1402.19,Success,0,Normal,Normal,Alert,Needs Attention
